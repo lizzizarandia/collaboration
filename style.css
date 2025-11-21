@@ -1,0 +1,78 @@
+.cookies{
+    position: fixed;
+    bottom: 10px;
+    left: 200px;
+    background-color: rgb(243, 227, 227);
+    padding: 20px 25px;
+    text-align: left;
+   }
+.chat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.icon, .text{
+    display: inline-block;
+    vertical-align: middle;  
+}
+.logo, .title{
+    display: inline-block;
+    vertical-align: middle;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(242, 194, 194);    
+}
+.container {
+max-width: 1200px;
+margin: auto;
+}
+.title{
+    color: rgb(114, 5, 5);
+    font-family: "Stack Sans Headline", sans-serif;
+}
+.search,.logo, .title{
+    position: relative;
+}
+.search{
+    width: 260px;
+    height: 40px;   
+}
+.button-search { 
+    background-color: rgb(111, 5, 5);
+    color: white;
+}
+.login{
+    position: relative;
+    left: 900px;
+    top: -70px;
+}
+label{
+    color: rgb(114, 5, 5);
+    font-style: normal;
+    font-size: medium;
+    font-weight: 300;
+}
+ul{
+    list-style-type: none;
+}
+.description {
+display: inline-block;
+vertical-align: top;
+width: 500px;
+}
+.special{
+    position: relative;
+}
+.new{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+}
