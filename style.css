@@ -1,10 +1,11 @@
 .cookies{
     position: fixed;
     bottom: 10px;
-    left: 200px;
+    left: 300px;
     background-color: rgb(243, 227, 227);
     padding: 20px 25px;
     text-align: left;
+    border-radius: 10px;
    }
 .chat{
     position: fixed;
@@ -76,3 +77,27 @@ width: 500px;
     left: 10px;
     background-color: orange;
 }
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(242, 194, 194);
+    overflow-y: auto;
+    list-style: none;
+}
+.main-content {
+
+    margin-left: 220px;
+}
+.sidebar a {
+    font-size: large;
+     text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+h2{
+    color: white;
+}
+
